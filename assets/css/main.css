@@ -1,0 +1,66 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f0e6;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Playfair Display", serif;
+  color: #6f4e37;
+}
+
+a {
+  color: #6f4e37;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(76.8975903614, 54.0361445783, 38.1024096386);
+}
+
+.navbar {
+  background-color: #6f4e37 !important;
+}
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(rgba(111, 78, 55, 0.7), rgba(111, 78, 55, 0.7)), url("../img/hero-cafe.webp") center/cover no-repeat;
+  color: #f5f0e6;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero .btn {
+  background-color: #c19a6b;
+  border: none;
+}
+.hero .btn:hover {
+  background-color: rgb(175.4857142857, 129.2428571429, 73.5142857143);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  background-color: #6f4e37;
+  color: #f5f0e6;
+  text-align: center;
+  padding: 1.5rem 0;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Café & Barismo | Contacto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Formulario de contacto y redes sociales de Café & Barismo.">
+  <meta name="author" content="Pablo">
+  <link rel="icon" href="./assets/img/WhatsApp Image 2025-12-08 at 21.07.09.jpeg">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">Café & Barismo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+          aria-controls="nav" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="nav" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="./about.html">Sobre el café</a></li>
+            <li class="nav-item"><a class="nav-link" href="./services.html">Talleres</a></li>
+            <li class="nav-item"><a class="nav-link" href="./portfolio.html">Galería</a></li>
+            <li class="nav-item"><a class="nav-link active" href="./contact.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="py-5">
+    <div class="container">
+      <h1 class="mb-4">Contacto</h1>
+      <p class="lead">¿Quieres más información sobre nuestros talleres o colaborar con nosotros? Escríbenos.</p>
+
+      <!-- Formulario -->
+      <form class="row g-3" action="#" method="post" aria-label="Formulario de contacto">
+        <div class="col-md-6">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input id="nombre" name="nombre" type="text" class="form-control" required>
+        </div>
+        <div class="col-md-6">
+          <label for="email" class="form-label">Email</label>
+          <input id="email" name="email" type="email" class="form-control" required>
+        </div>
+        <div class="col-12">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" class="form-control" required></textarea>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>
+
+      <!-- Redes sociales -->
+      <section class="mt-5">
+        <h2 class="h4 mb-3">Síguenos en redes</h2>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="https://instagram.com" target="_blank" class="btn btn-outline-dark">Instagram</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://tiktok.com" target="_blank" class="btn btn-outline-dark">TikTok</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://youtube.com" target="_blank" class="btn btn-outline-dark">YouTube</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Mapa opcional -->
+      <section class="mt-5">
+        <h2 class="h4 mb-3">Dónde encontrarnos</h2>
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." 
+                  style="border:0;" allowfullscreen="" loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p class="mb-0">© 2025 Café & Barismo — Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <!-- JS Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+</body>
+</html>

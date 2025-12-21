@@ -1,0 +1,94 @@
+// ===============================
+// Variables
+// ===============================
+$color-primary: #6f4e37; // marrón café
+$color-secondary: #c19a6b; // beige cálido
+$color-light: #f5f0e6; // crema
+$color-dark: #2c2c2c; // gris oscuro
+$font-title: 'Playfair Display', serif;
+$font-body: 'Roboto', sans-serif;
+
+// ===============================
+// Base
+// ===============================
+body {
+  font-family: $font-body;
+  background-color: $color-light;
+  color: $color-dark;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-title;
+  color: $color-primary;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+  &:hover {
+    color: darken($color-primary, 10%);
+  }
+}
+
+// ===============================
+// Navbar
+// ===============================
+.navbar {
+  background-color: $color-primary !important;
+}
+
+.navbar-brand {
+  font-family: $font-title;
+  font-weight: bold;
+}
+
+// ===============================
+// Hero
+// ===============================
+.hero {
+  background: linear-gradient(rgba(111, 78, 55, 0.7), rgba(111, 78, 55, 0.7)),
+              url('../img/hero-cafe.webp') center/cover no-repeat;
+  color: $color-light;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .btn {
+    background-color: $color-secondary;
+    border: none;
+    &:hover {
+      background-color: darken($color-secondary, 10%);
+      transform: translateY(-2px);
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+// ===============================
+// Cards
+// ===============================
+.card {
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+}
+
+// ===============================
+// Footer
+// ===============================
+footer {
+  background-color: $color-primary;
+  color: $color-light;
+  text-align: center;
+  padding: 1.5rem 0;
+}
