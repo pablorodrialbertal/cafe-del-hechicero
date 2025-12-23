@@ -37,30 +37,25 @@
   </header>
 
   <!-- Contenido principal -->
-  <main class="py-5">
-    <div class="container">
-      <h1 class="mb-4">Contacto</h1>
-      <p class="lead">¿Quieres más información sobre nuestros talleres o colaborar con nosotros? Escríbenos.</p>
-
-      <!-- Formulario -->
-      <form class="row g-3" action="#" method="post" aria-label="Formulario de contacto">
-        <div class="col-md-6">
-          <label for="nombre" class="form-label">Nombre</label>
-          <input id="nombre" name="nombre" type="text" class="form-control" required>
-        </div>
-        <div class="col-md-6">
-          <label for="email" class="form-label">Email</label>
-          <input id="email" name="email" type="email" class="form-control" required>
-        </div>
-        <div class="col-12">
-          <label for="mensaje" class="form-label">Mensaje</label>
-          <textarea id="mensaje" name="mensaje" rows="5" class="form-control" required></textarea>
-        </div>
-        <div class="col-12">
-          <button class="btn btn-primary" type="submit">Enviar</button>
-        </div>
-      </form>
-
+  <!-- Formulario de contacto -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Contáctanos</h2>
+  <form>
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo electrónico</label>
+      <input type="email" class="form-control" id="email" placeholder="tu@correo.com" required>
+    </div>
+    <div class="mb-3">
+      <label for="mensaje" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</section>
       <!-- Redes sociales -->
       <section class="mt-5">
         <h2 class="h4 mb-3">Síguenos en redes</h2>
